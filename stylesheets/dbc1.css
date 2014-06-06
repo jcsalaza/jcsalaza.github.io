@@ -1,0 +1,13 @@
+body { background-color: gray;}
+
+h1 { color: red;}
+
+p {
+	font-size: 12px;
+	color: white;
+	text-align: left;
+}
+
+.grn { color: green;}
+
+#sesame { color: yellow;}
