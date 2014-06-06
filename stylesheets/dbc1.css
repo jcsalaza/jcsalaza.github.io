@@ -4,8 +4,7 @@ h1 { color: red;}
 
 p {
 	font-size: 12px;
-	color: white;
-	text-align: left;
+	font-color: white;
 }
 
 .grn { color: green;}
