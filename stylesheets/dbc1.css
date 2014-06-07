@@ -1,4 +1,4 @@
-body { background-color: gray;}
+body { text-align: center;}
 
 h1 { color: red;}
 
@@ -9,4 +9,6 @@ p {
 
 .grn { color: green;}
 
-#sesame { color: yellow;}
+#sesame { color: yellow;
+			background: gray;
+}
