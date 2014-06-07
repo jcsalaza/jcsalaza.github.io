@@ -1,0 +1,61 @@
+body {background-color: red;
+	font-family: Times; 
+	display: block;
+}
+
+h1 {font-size: 60px;
+	}
+
+.liljon {float: right;
+		height: 300px;
+		width: 300px;}
+
+.beyonce {float: left;
+		height: 300px;
+		width: 300px;}
+
+.white {color: white;
+		font-family: cursive;
+		text-align: center;
+}
+
+.pico {font-family: cursive;
+		color: red;
+		font-weight: 16px;}
+
+.insight {font-size: 16px;}
+
+#header {background-color: black;
+		height: 120px;
+		padding: 96px;
+		box-shadow: 0 -10px 0 red;
+}
+
+#content { margin: 40px;
+		margin-left: 150px;
+		background-color: white;
+		width: 50em;
+		padding: 5px;
+		display: block;
+		text-align: center;
+}
+
+#sidebar {float: left;
+		width: 10em;
+		max-width: 110px;
+		background-color: gray;
+		font-family: Times;
+		font-size: 14px;
+		text-align: left;
+		margin-right: 10px;
+		display: block;
+}
+
+#footer {background-color: silver;
+		height: 5em;
+		font-size: 12px;
+		text-align: center;
+		font-family: Arial;
+		margin: 2px
+		padding: 20px;
+}
