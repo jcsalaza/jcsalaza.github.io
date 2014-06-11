@@ -1,0 +1,38 @@
+#headerone {float:center;
+    margin: 0;
+    color:;
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    background:#54D6A6;
+    height:100px;
+    padding:10px;
+    text-align:center;
+    border: 2px solid;
+    border-radius: 20px;
+}
+#headertwo {float:center;
+    font-size: 25px;
+    font-family: 'Shadows Into Light', cursive;
+    background:#54D6A6;
+    height:42px;
+    padding:10px;
+    text-align:center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 20px;
+}
+#pic {border-radius: 20px;
+      border: 2px solid;
+      margin: 10px;
+      height: auto;
+      width: 250px;
+      margin-right: auto;
+      margin-left: auto;
+}
+#content {background-color: #E6E6B8;
+          font-family: Times;
+          font-size: 18px;
+          padding: 10px;
+}
