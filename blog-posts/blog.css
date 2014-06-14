@@ -19,6 +19,7 @@ body { background-color: black;
 		float: left;
 		width: 4em, auto;
 		margin-top: 50px;
+    border: 10px ridge gray;
 		padding: 5px;
 		position: absolute;
 }
@@ -30,6 +31,7 @@ width:70%;
 font-size: 16px;
 font-family: Verdana, Times;
 padding: 5px;
+border: ridge gray 5px;
 }
 
 #footer {background-color: #E0E0E0;
@@ -42,7 +44,7 @@ padding: 5px;
         margin-bottom: auto;
 }
 
-#mainpic {margin-left: 380px;
+#mainpic {margin-left: 460px;
 			margin-top: 50px;
 			margin-bottom: 50px;
 			margin-right: auto;
