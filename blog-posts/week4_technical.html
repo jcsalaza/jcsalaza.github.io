@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="blog.css">
+  <title>Blog</title>
+  </head>
+  <body>
+  <div id="header">Jeremy Salazar's Blog for DBC</div>
+  <div id= "sidebar">
+    <p><strong>Return Home</strong></p>
+    <p class="link"><a href="../index.html">Click Here</a></p>
+  </div>
+  <p class="center">
+    <img src="../unit1_projects/images/print_map.png">
+  </p>
+  <div id="content">
+    <p class="center">Use The Map!</p>
+    <p>The #map method in Ruby is quite a useful method for transforming enumerable objects or arrays. Here's what it might look like to use the map method:</p>
+    <p class="center">
+      <img height=120 px width=825 px src="../unit1_projects/images/ruby-map-screenshot.png">
+    </p>
+    <p><strong>Broken down, this is what it does:</strong><br>It takes an array, does whatever you tell it to "do" (aka runs the block), and returns a new array that has been transformed by what you told it to "do."</p>
+    <p><strong>Map and Map!</strong><br>The map method can either give you a result that shows a new array and leaves the original unchanged, or it can transform the original array. By simply writing #map! instead of #map, you would change the original array.</p>
+    <p><strong>Collect or Map?</strong><br>The map method and the collect method are apparently two different names for the same method. They both do essentially the same thing, so you can use whichever you prefer.</p>
+    <p><strong>Real life example (sort of):</strong><br>So, let's say you have an array that is a list of your favorite Nabisco cookies. You get a weird feeling that you'll be sued by Nabisco if you don't include their name in front of each type of cookie. You decide the best way to do it would be to transform the array with a destructive map (the kind with the ! that changes the original array), so you write a block that puts "Nabisco's" in front of each type of cookie. Boom done.</p>
+    <p><strong>But really...</strong><br>More likely you would use the map method in debugging your own code or changing all elements in an array easily. For example, you might want information about an array, like how many even or odd numbers there are. You could use the map or collect method and do that in one line to find out. Or maybe you want to add 1 to each of the numbers in an array because you forgot to account for yourself in a list of class sizes you created. Use the #map! method to transform your original array and leave the rest of your code alone.</p>
+  </div>
+  <div id="footer">
+      <p>
+         &copy; J-Sal's Journal
+      </p>
+  </div>
+  </body>
+</html>
