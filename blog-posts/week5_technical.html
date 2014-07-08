@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="blog.css">
+  <title>Blog</title>
+  </head>
+  <body>
+  <div id="header">Jeremy Salazar's Blog for DBC</div>
+  <div id= "sidebar">
+    <p><strong>Return Home?</strong></p>
+    <p class="link"><a href="../index.html">Click Here</a></p>
+  </div>
+  <div id="content">
+    <p class="center">Ruby - Classes</p>
+    <p>Ruby is an object-oriented language, so everything is an object and is a part of the basic object class. This is also true for "Class." Now, when you make a class, you're essentially making a sub-category for other objects. That allows programmers to make their lives a bit easier by not having to code out what you want to attribute to an object each time you have a new object.</p>
+    <p>Bear with me here because I'm going to try to create an analogy to make it easier to understand how classes are used, and then we can go into what else can be done with classes.<br>Think of every type of life on the planet. Now let's relate this to Ruby; imagine anything encapsulated in "living things" - bacteria, insects, fish, mammals, etc. - is an object. If that's the case, then those categories can be related to Ruby's classes. So, now you find a new animal, a Catdog. It's already a living thing (object) but you want to categorize it as a mammal (class). By assigning it as an object under the class "mammal" you wouldn't have to assign all of the attributes that all mammals share with Catdog; you could just say "Catdog is a mammal" or Catdog = mammal.new. If you wanted to go deeper, you could even make Catdog it's own subclass within the mammal class.<br>I hope this made some sort of sense.</p>
+    <p>You have already seen how classes can be useful. But <em>how are they used</em>?<br>In terms of basic structure, a class starts with the keyword "Class", is defined by whatever you write next to it, terminates with the keyword "end," and does whatever is in between the class definition and the end. Something like this:<br><blockquote>Class Mammal<br>end</blockquote></p>
+    <p>The next thing I'd like to cover briefly is what goes in a class. You can put methods in a class. You can also have objects or different types of variables within a class.<br>Ruby has four variable types - local, instance, class, and global variables. The local variable is assigned in a method, but it isn't available outside that method. The instance variable (very helpful in classes) is a variable preceded by @ - e.g. @variable - that can be used across methods within a particular object (or class!). Class and global variables are preceded by @@ and $ respectively, and they have a wider scope than the previous two, essentially allowing you to use the variable across all like objects of the same class and across classes (again, respectively).</p>
+    <p>Here's what a class using instance variables may look like:<br><blockquote>Class Mammal<br>&nbspdef initialize (hair, live_birth)<br>&nbsp&nbsp@hair = hair<br>&nbsp&nbsp@birth = live_birth<br>&nbspend<br>end</blockquote></p>
+    <p>One more thing about classes, and then I'll be finished. You can use "private" in a class to make some of the code, the code following the private method, usable only within the class. What that means is you couldn't call the methods after "private" on an object assigned the class in question, but those methods are still used within the class to, maybe, feed information to another method (a good use instance variables!).</p>
+    <p><strong>In short...</strong><br>You will want to use classes in order to categorize objects and make your life easier. When you use a class, you can use instance variables across methods to make your code more dynamic. Also, it'd be easier to add something later if you're using a class. Play with classes, do some research on your own if you're at all interested, and, most of all, stay classy!</p>
+  </div>
+  <div id="footer">
+      <p>
+         &copy; J-Sal's Journal
+      </p>
+  </div>
+  </body>
+</html>
