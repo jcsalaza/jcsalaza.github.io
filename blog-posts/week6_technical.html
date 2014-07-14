@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="blog.css">
+  <title>Blog</title>
+  </head>
+  <body>
+  <div id="header">Jeremy Salazar's Blog for DBC</div>
+  <div id= "sidebar">
+    <p><strong>Return Home?</strong></p>
+    <p class="link"><a href="../index.html">Click Here</a></p>
+  </div><br><br>
+  <div id="content">
+    <p class="center">Ruby's Different Variables</p>
+    <p>I touched upon this in my last technical post, but let's go more in depth with this topic. After all, in an object-oriented language like Ruby, variables are the objects you're working with most.</p>
+    <p>So, Ruby has four variable types - local, instance, class, and global variables. Let's take a closer look a each of these:</p>
+    <p><strong>Local variable</strong><br>A local variable is just that, local. That means it is only that specific variable within the code block it is defined. For example, if the local variable is assigned in a method, it isn't available outside that method. A local variable has to start with either an underscore or a lower case letter.<br>Here's what a local variable might look like -<br><blockquote><em>j_sal = 1</em></blockquote></p>
+    <p><strong>Global variable</strong><br>The good thing about variables in Ruby, is they're pretty self-explanatory. A local variable is local, so you'd imagine a global variable would be...yep, global! A global variable has a global scope, meaning it can be accessed anywhere in the entire Ruby program. Global variables are always prefixed by this sigil - "$" aka the dollar sign. Apparently it can get messy if you use these too much, though, because, yes, the global variables can be accessed anywhere in the program, but they can also be changed from anywhere in the program.<br>Here's what a global variable might look like -<br><blockquote><em>$welcome = "Welcome brethren!"</em></blockquote></p>
+    <p><strong>Instance variable</strong><br>The instance variable (very helpful in classes) is a variable preceded by @ - e.g. @variable - that can be used across methods within a particular object (or class!).<br>Here's what a class using instance variables may look like:<br><blockquote>Class Mammal<br>&nbspdef initialize (hair, live_birth)<br>&nbsp&nbsp@hair = hair<br>&nbsp&nbsp@birth = live_birth<br>&nbspend<br>end</blockquote></p>
+    <p><strong>Class variable</strong>Class variables are a bit tricky. Like the instance variable, a class variable is preceded by @'s, but they have two instead of one. E.g. @@class_variable<br>They're also like the global variable, though, in that they have a wider scope than the other two, essentially allowing you to use the variable across all like objects of the same class. In lay terms, this means you can use the class variable in a situation where an object/method may change the value of the class variable, and you would then have that new value for the class variable if it is used elsewhere.</p>
+    <p>Hopefully I've been able to shed some light on Ruby's variables. If you would like to continue learning about these and want something even more in-depth, check out <a href="http://zetcode.com/lang/rubytutorial/variables/">Zetcode's variables tutorial</a></p>
+  </div>
+  <div id="footer">
+      <p>
+         &copy; J-Sal's Journal
+      </p>
+  </div>
+  </body>
+</html>
