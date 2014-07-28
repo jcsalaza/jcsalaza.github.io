@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" type="text/css" href="blog.css">
+  <title>Blog</title>
+  </head>
+  <body>
+  <div id="header">Jeremy Salazar's Blog for DBC</div>
+  <div id= "sidebar">
+    <p><strong>Return Home?</strong></p>
+    <p class="link"><a href="../index.html">Click Here</a></p>
+  </div><br><br>
+  <div id="content">
+    <p class="center">Recursion</p>
+    <p><strong>Recursion</strong> is "the process of repeating items in a self-similar way" accoriding to good ol' Wikipedia. But what the heck does that mean???</p>
+    <p><strong>Think</strong> of it like this - two mirrors facing one another parallel would be an instance of infinite recursion. The reflection would be reflected in the image displayed by the other mirror forever and ever and ever. Get it? No? Hmm. How about like this then:<br><br><img width=825 px height=200 px src="../unit1_projects/images/recursion_google.png"><br>Notice how when you Google recursion, it says "Did you mean recursion?" If you click it, it still says that on the new page that's loaded.</p>
+    <p><strong>Alright</strong>, since this is for DBC, I better try to explain how this is important to your friendly neighborhood coder-man. We already know you can define a function and that you can call another function within that function's definition. Now, what if you could define a function or method that calls itself in its definition??? Well, that's RECURSION!</p>
+    <p><strong>Recursion</strong> is a way of defining functions in which the function is applied inside its own definition. For example, though you could easily write a "for loop" in JavaScript to do a factorial function, you could also write it recursively like so:<br><blockquote>factorial(N) {<br>  if (N==1) return 1;<br>  return N * factorial(N-1);<br>}</blockquote>See?! Recursion can be a good alternative to normal iteration sometimes. For example, if you're reading this and haven't done the Fibonacci challenge yet, try giving thinking of the sequence of numbers as being defined recursively. So, F(0)=0 and F(1)=1, but every other number after the first two is he previous two added together. Then, F(3)=F(2)+F(1), and, since we know F(2)=F(1)+F(0), that'd be the same as saying F(3)=F(1)+F(0)+F(1). So, F(3)=2. This could be done with any number in the Fibonacci sequence - F(n)=F(n-1)+F(n-2).</p>
+    <p><strong>Hopefully</strong>, you understand recursion a bit better now. If not, see this <a href="week8_technical.html">blog post ;)</a></p>
+  </div>
+  <div id="footer">
+      <p>
+         &copy; J-Sal's Journal
+      </p>
+  </div>
+  </body>
+</html>
